@@ -14,7 +14,7 @@ app.get('/login',(req,res)=>{
 
 
 app.get('/dheeraj',(req,res)=>{
-    res.send('<h1> Hello Dheeraj Kumar Kaishe ho kya kar rhe ho meow ghop ghop ghop</h1>')
+    res.send('<h1> Hello Dheeraj Kumar Kaishe ho kya kar rhe ho</h1>')
 
 })
 app.listen(process.env.PORT,()=>{
